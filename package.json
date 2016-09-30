@@ -2,11 +2,19 @@
   "name": "smtp-outbound",
   "version": "1.0.0",
   "description": "",
-  "main": "./src/index.js",
+  "main": "./dist/index.js",
   "scripts": {
-    "start": "node ./src/index.js"
+    "clean": "rm -Rf ./dist",
+    "prebuild": "npm run clean; mkdir -p ./dist",
+    "build": "babel ./src --out-dir ./dist --copy-files",
+    "prestart": "npm run build",
+    "start": "node ./dist"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "6.16.0",
+    "babel-preset-node5": "11.1.0"
+  }
 }
