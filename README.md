@@ -1,0 +1,1 @@
+https://books.google.si/books?id=isybabuADPkC&pg=PA666&lpg=PA666&dq=smtp+CR+lf+node&source=bl&ots=XcH-zZ6fzS&sig=pG9i6OYfjMVjvOKDq-ftKAEV0IA&hl=en&sa=X&ved=0ahUKEwjzkbjkg7fPAhVFXBQKHW1SA_MQ6AEIQjAH#v=onepage&q=smtp%20CR%20lf%20node&f=false
